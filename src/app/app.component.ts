@@ -10,11 +10,11 @@ export class AppComponent {
 
   constructor() {
     this.someArray = [];
-    this.printArray()
+    this.printArray();
   }
 
   printArray() {
-    for (var i: number = 0; i < 10; i++) {
+    for (var i: number = 0; i < 3; i++) {
       this.someArray[i] = [];
       for (var j: number = 0; j < 2; j++) {
         if (j == 1) {
